@@ -1,0 +1,11 @@
+
+body{
+	background-color:#0c1413 !important;
+}
+header{
+	background-color:var(--primary-color)
+}
+#navbaar{
+    margin-top:10px ;
+}
+
