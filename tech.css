@@ -15,4 +15,7 @@ footer{
 	width: 100%;
 	z-index: 1;
 }
+li{
+	font-weight:bold;
+}
   
