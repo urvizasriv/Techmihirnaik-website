@@ -12,45 +12,203 @@
 <!--Style.css-->
 <link rel="stylesheet" type="text/css" href="tech.css">
 </head>
+
+<!-- body part -->
 <body>
-<!-- navbar -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">LOGO</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse " id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto ">
-        <li class="nav-item">
-          <a class="nav-link" href="#">SERVICES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">TRACK</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">CONTACT</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <a href="login.html" button class="btn btn-outline-success">Login</button></a>
-      </form>
-    </div>
+  <header class="header-section">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto ">
+            <!-- <div class="logo">
+                <img src="image/favicon.png" alt="logo">
+              </div> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SERVICES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Courier</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Technical</a></li>
+                </ul>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TRACK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+          <form class="d-flex p-1">
+            <a href="login.html" button class="btn btn-outline-success">Twintin</button></a>
+          </form>
+          <form class="d-flex">
+            <a href="login.html" button class="btn btn-outline-success">Login</button></a>
+          </form>
+          
+        </div>
+      </div>
+    </nav>
+    </header>
+
+<!-- hero section -->
+<section class="hero-section">
+  <div class="row">
+      <div class="hero-text">
+        
+          <h2 style="text-shadow: 0px 0px 10px #0cbfe9, 0px 0px 20px #0cbfe9;">Introducing <br /> TechMihirNaik</h2>
+          <p class="picture"><img src="image/favicon.png"></p>
+      </div>
+      <div class="wave">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
   </div>
-</nav>
+</section>
 
-
-  <!-- navbaar -->
+  <!-- about us section -->
+ 
+  <!-- out story -->
+  <div class="section">
+      <div class="container">
+          <div class="content-section">
+              <div class="title">
+                  <h1>Our Story</h1>
+              </div>
+              <div class="content">
+                  <h3>Lorem ipsum, dolor sit amet consectet</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique sint atque consequuntur tempora impedit odio soluta!</p>
+                  <div class="button">
+                      <a href="">Read More</a>
+                  </div>
+              </div>
+              <div class="social">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+          <div class="image-section">
+              <img src="image/img.jpg">
+          </div> 
+              
+      </div>
+  </div>
+  <div class="section">
+      <div class="container">
+          <div class="content-section">
+              <div class="title">
+                  <h1>Our Technology</h1>
+              </div>
+              <div class="content">
+                  <h3>Lorem ipsum, dolor sit amet consectet</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique sint atque consequuntur tempora impedit odio soluta!</p>
+                  <div class="button">
+                      <a href="">Read More</a>
+                  </div>
+              </div>
+              <div class="social">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+          <div class="image-section">
+              <img src="image/img.jpg">
+          </div>
+              
+      </div>
+  </div>
+  <div class="wrapper">
+      <h2>Our Services</h2>
+      <div class="line"></div>
+      <div class="single-service">
+          <div class="social1"><i class="fa fa-file-photo-o"></i></div>
+          <span></span>
+          <h3>Technical Service</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptas est assumenda obcaecati, quas nulla, et hic eveniet, ipsum dolore perspiciatis accusantium repellendus placeat eos quod dolorem iusto.</p>
+          <div class="button">
+              <a href="">Read More</a>
+          </div>
+  
+      </div>
+      <div class="single-service">
+          <div class="social1"><i class="fa fa-laptop"></i></div>
+          <span></span>
+          <h3>Courier Service</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptas est assumenda obcaecati, quas nulla, et hic eveniet, ipsum dolore perspiciatis accusantium repellendus placeat eos quod dolorem iusto.</p>
+          <div class="button">
+              <a href="">Read More</a>
+          </div>
+          
+      </div>
+      <div class="single-service">
+          <div class="social1"><i class="fa fa-pie-chart"></i></div>
+          <span></span>
+          <h3>Design</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptas est assumenda obcaecati, quas nulla, et hic eveniet, ipsum dolore perspiciatis accusantium repellendus placeat eos quod dolorem iusto.</p>
+          <div class="button">
+              <a href="">Read More</a>
+          </div>
+          
+      </div>
+  </div>
+  <!-- company logo -->
   <!-- footer -->
-  <footer>
-	<h5>
-		Techmihirnaik
-	</h5>
-</footer>
-   <!-- footer -->
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+           ><i class="fab fa-facebook-f"></i
+          ></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+           ><i class="fab fa-twitter"></i
+          ></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+           ><i class="fab fa-google"></i
+          ></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+           ><i class="fab fa-instagram"></i
+          ></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+           ><i class="fab fa-linkedin-in"></i
+          ></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+           ><i class="fab fa-github"></i
+          ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="">Techmihirnaik.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 
 </body>
 </html>
